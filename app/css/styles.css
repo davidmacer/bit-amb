@@ -14,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   background-color: #42685B;
   overflow: hidden;
   font-family: "adelle-sans-light";
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Style the links inside the navigation bar */
@@ -22,7 +22,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   float: left;
   color: #fff;
   text-align: center;
-  padding: 40px 26px;
+  padding: 40px 16px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -37,4 +37,20 @@ body, h1, h2, h3, h4, h5, h6, p {
 .topnav {
   background-color: #42685B;
   color: white;
+}
+
+.logo-puebla {
+    float: right;
+    width: auto;
+    height: 100px;
+    margin-right: 0;
+    margin-top: 0;    /* if you want it vertically middle of the navbar. */
+}
+
+.logo-smadsot {
+  float: right;
+  width: auto;
+  height: 100px;
+  margin-right: 0;
+  margin-top: 0;    /* if you want it vertically middle of the navbar. */
 }
