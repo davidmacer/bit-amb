@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'adelle-sans-light';
+  src: url('../fonts/adelle-sans-light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "adelle-sans-light";
+  font-weight: 700;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #42685B;
+  overflow: hidden;
+  font-family: "adelle-sans-light";
+  font-weight: 500;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 40px 26px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #646562;
+  color: #fff;
+}
+
+/* Add a color to the active/current link */
+.topnav {
+  background-color: #42685B;
+  color: white;
+}
