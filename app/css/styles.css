@@ -35,7 +35,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   padding: 40px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: min(3vw, 1.25em);
 }
 
 /* Change the color of links on hover */
@@ -94,17 +94,18 @@ body, h1, h2, h3, h4, h5, h6, p {
 .poep-botones {
   margin-top: 50px;
 }
+
 .boton-etapas {
-  width: 25%;
+  width: max(35%, 35vw);
   border-radius: 10px;
   background: #C0C0C0;
 }
 
 span {
-  font-size: 20px;
+  font-size: min(4vw, 1.5em);
   font-weight: 700;
   text-align: center;
-  letter-spacing: 1.5px
+  letter-spacing: 1.5px;
 }
 
 hr.divider {
@@ -119,5 +120,5 @@ hr.divider {
 }
 
 .intro-header > .intro-message > h3 {
-  font-size: min(5vw, 2em);
+  font-size: min(5vw, 2.5em);
 }
