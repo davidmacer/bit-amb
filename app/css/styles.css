@@ -21,6 +21,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 /* Add a black background color to the top navigation */
 .topnav {
+  color: black;
   background-color: #42685B;
   overflow: hidden;
   font-family: "adelle-sans-light";
@@ -29,25 +30,24 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav > ul > li {
   float: left;
-  color: #fff;
   text-align: center;
-  padding: 40px 16px;
-  text-decoration: none;
+  padding: 34px 16px;
   font-size: min(3vw, 1.25em);
+  display: block;
+}
+
+.topnav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav > ul > li:hover {
   background-color: #646562;
-  color: #fff;
-}
-
-/* Add a color to the active/current link */
-.topnav {
-  background-color: #42685B;
-  color: white;
+  cursor: pointer;
+  margin: 0.25rem 0;
 }
 
 .logo-puebla {
@@ -122,3 +122,4 @@ hr.divider {
 .intro-header > .intro-message > h3 {
   font-size: min(5vw, 2.5em);
 }
+
